@@ -1,212 +1,327 @@
+
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Restore Google Infinite Scroll</title>
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="relative overflow-x-hidden font-sans">
-
-  <!-- Floating BG shapes -->
-  <div class="absolute top-0 left-0 w-full h-full -z-10">
-    <div class="absolute top-[-50px] left-[-50px] w-72 h-72 bg-gradient-to-tr from-blue-400 to-pink-400 opacity-20 rounded-full animate-pulse-slow"></div>
-    <div class="absolute bottom-[-60px] right-[-60px] w-96 h-96 bg-gradient-to-br from-green-300 to-purple-400 opacity-20 rounded-full animate-pulse-slow"></div>
-  </div>
-
-  <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 relative z-10">
-    <h1 class="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient-text">
-      Bring Back Google Infinite Scroll 🚀
-    </h1>
-    <p class="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl">
-      Endless scrolling is back! No more clicking "Next" repeatedly. Stay focused, browse faster, and get more results in less time.
-    </p>
-    <ul class="mt-6 text-gray-700 text-left max-w-md space-y-2">
-      <li>⚡ Auto-load search results instantly</li>
-      <li>🔧 Customize scroll behavior per site</li>
-      <li>🔒 Privacy-first, no tracking</li>
-    </ul>
-    <div class="mt-10">
-      <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RF4uL1zF9rCLrM" async> </script> </form>
-    </div>
-  </section>
-
-  <!-- Problem Section -->
-  <section class="py-20 px-6 bg-red-50 relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-red-700">Problem: Google Removed Infinite Scroll</h2>
-      <p class="mt-4 text-gray-700 text-lg">
-        Since August 2023, Google removed infinite scroll. Users now have to click "Next" repeatedly, which wastes time, breaks focus, and interrupts workflow.  
-        Studies show users lose up to 30% of productive browsing time with manual pagination.
-      </p>
-      <div class="mt-8">
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- Solution Section -->
-  <section class="py-20 px-6 bg-blue-50 relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-blue-700">Solution: Our Extension Restores Infinite Scroll</h2>
-      <p class="mt-4 text-gray-700 text-lg">
-        Our extension automatically loads the next set of search results as you scroll — exactly like Google used to do.  
-        It's lightweight, fast, customizable, and privacy-focused.
-      </p>
-      <div class="mt-8 flex justify-center">
-      
-      </div>
-      <div class="mt-10">
-        <form >
-          <script  src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RF4uL1zF9rCLrM" async>
-          </script>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Benefits & Features -->
-  <section class="py-20 px-6 bg-green-50 relative z-10">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-green-700">Benefits & Features</h2>
-      <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-green-100">
-          <div class="text-4xl mb-3">✅</div>
-          <h3 class="font-bold text-lg">Infinite Scroll Restored</h3>
-          <p class="text-gray-700 mt-2">Brings back Google’s removed infinite scroll feature seamlessly.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-blue-100">
-          <div class="text-4xl mb-3">⚡</div>
-          <h3 class="font-bold text-lg">Auto-Load Results</h3>
-          <p class="text-gray-700 mt-2">Next results load automatically as you scroll — no clicks needed.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-pink-100">
-          <div class="text-4xl mb-3">🎯</div>
-          <h3 class="font-bold text-lg">Smart Loading</h3>
-          <p class="text-gray-700 mt-2">Optimized for performance so your browser stays fast.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-purple-100">
-          <div class="text-4xl mb-3">🔧</div>
-          <h3 class="font-bold text-lg">Customizable</h3>
-          <p class="text-gray-700 mt-2">Control scroll speed, distance, and per-domain behavior.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-yellow-100">
-          <div class="text-4xl mb-3">🚀</div>
-          <h3 class="font-bold text-lg">Lightweight & Fast</h3>
-          <p class="text-gray-700 mt-2">Won’t slow down your browser at all.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-indigo-100">
-          <div class="text-4xl mb-3">🔒</div>
-          <h3 class="font-bold text-lg">Privacy Focused</h3>
-          <p class="text-gray-700 mt-2">No tracking, no data collection — fully safe to use.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-teal-100">
-          <div class="text-4xl mb-3">💡</div>
-          <h3 class="font-bold text-lg">Boost Productivity</h3>
-          <p class="text-gray-700 mt-2">Save time browsing and stay in flow state.</p>
-        </div>
-        <div class="p-6 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 bg-gradient-to-br from-white to-orange-100">
-          <div class="text-4xl mb-3">🎁</div>
-          <h3 class="font-bold text-lg">Instant Gratification</h3>
-          <p class="text-gray-700 mt-2">Enjoy immediate results without waiting or clicking.</p>
-        </div>
-      </div>
-      <div class="mt-10">
-       <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RF4uL1zF9rCLrM" async> </script> </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Before vs After Section -->
-  <section class="py-20 px-6 bg-gray-50 relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Before vs After</h2>
-      <div class="mt-12 flex flex-col md:flex-row gap-8 justify-center">
-        <div class="flex-1 p-6 bg-red-100 rounded-3xl shadow hover:scale-105 transition transform">
-          <h3 class="font-bold text-red-700 mb-2">Before</h3>
-          <p>Clicking "Next" repeatedly, losing focus, breaking browsing flow. Hard to analyze multiple pages efficiently.</p>
-        </div>
-        <div class="flex-1 p-6 bg-green-100 rounded-3xl shadow hover:scale-105 transition transform">
-          <h3 class="font-bold text-green-700 mb-2">After</h3>
-          <p>Infinite scroll restored, results load automatically, stay focused, save time and energy.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Demo Section -->
-  <!-- Demo Section -->
-  <section id="demo" class="py-20 px-6 bg-white relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Demo</h2>
-      <p class="mt-4 text-gray-600 text-lg">See the extension in action:</p>
-     <!-- Responsive YouTube Video -->
-<div class="w-full max-w-4xl mx-auto">
-  <div class="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-2xl shadow-lg">
-    <iframe 
-      class="absolute top-0 left-0 w-full h-full"
-      src="https://www.youtube.com/embed/V5Y1Hi45KNY?si=jTCMeWxmIeQwVzn_" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
-
-    </div>
-  </section>
-
-
-  </section>
-
-  
-  <!-- Testimonials -->
-  <section class="py-20 px-6 bg-white relative z-10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl md:text-3xl font-bold text-gray-800">What others are saying</h2>
-      <div class="mt-10 grid md:grid-cols-2 gap-6">
-        <div class="p-6 bg-gradient-to-br from-white to-blue-50 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105">
-          <p class="text-gray-600 italic">“Finally, no more clicking Next! Super smooth experience and saves so much time.”</p>
-          <p class="mt-3 text-sm font-semibold">– Alex J.</p>
-        </div>
-        <div class="p-6 bg-gradient-to-br from-white to-pink-50 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105">
-          <p class="text-gray-600 italic">“Feels like buying a coffee for a friend and getting a useful gift! Highly recommend.”</p>
-          <p class="mt-3 text-sm font-semibold">– Maria S.</p>
-        </div>
-        <div class="p-6 bg-gradient-to-br from-white to-green-50 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105">
-          <p class="text-gray-600 italic">“Boosted my research workflow instantly. A tiny $1 support and huge value back.”</p>
-          <p class="mt-3 text-sm font-semibold">– Rohan P.</p>
-        </div>
-        <div class="p-6 bg-gradient-to-br from-white to-yellow-50 rounded-3xl shadow-lg hover:shadow-2xl transition transform hover:scale-105">
-          <p class="text-gray-600 italic">“Lightweight, fast, and works perfectly. Love the simplicity and privacy-first approach.”</p>
-          <p class="mt-3 text-sm font-semibold">– Lina K.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer + FAQ Mini -->
-  <footer class="py-12 text-center text-sm text-gray-500 relative z-10">
-    Made with ❤️ | Thanks for the coffee! <br>
-    FAQ: Works on all Google Search pages | Fully privacy-focused | Only $1 support
-  </footer>
-
+  <meta charset="utf-8" />
+  <title>Windows 11 Fix Guide — Landing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fix Windows 11 24H2 update issues with a beginner-friendly, step-by-step digital guide. Clean, modern landing page with PayPal checkout." />
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    @keyframes gradient-text {
-      0%, 100% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-    }
-    .animate-gradient-text {
-      background-size: 200% 200%;
-      animation: gradient-text 6s ease infinite;
-    }
-    .animate-pulse-slow {
-      animation: pulse 8s infinite;
+    :root { color-scheme: light dark; }
+    html { scroll-behavior: smooth; }
+    .gradient { background: linear-gradient(135deg, #1e293b 0%, #111827 50%, #0b1220 100%); }
+    .card { background: white; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0b1220; color: #e5e7eb; }
+      .card { background: #0d1324; }
+      .muted { color: #9ca3af; }
+      .border-muted { border-color: #1f2937; }
     }
   </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="w-full">
+    <nav class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+      <a href="#" class="text-lg font-semibold">WinFix Guides</a>
+      <div class="hidden sm:flex items-center gap-6">
+        <a href="#features" class="opacity-80 hover:opacity-100">Features</a>
+        <a href="#testimonials" class="opacity-80 hover:opacity-100">Testimonials</a>
+        <a href="#pricing" class="opacity-80 hover:opacity-100">Pricing</a>
+      </div>
+      <a href="#pricing" class="hidden sm:inline-flex px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-medium shadow-lg">Get the Guide</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="gradient text-white">
+    <div class="max-w-6xl mx-auto px-5 py-20 flex flex-col-reverse lg:flex-row items-center gap-10">
+      <div class="flex-1">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">Windows 11 24H2 Update Fix Guide</h1>
+        <p class="mt-4 text-slate-200 text-lg">A beginner-friendly, step-by-step guide that fixes KB5065426 issues: update errors, frozen taskbar, broken Wi‑Fi/Ethernet, app and driver crashes, and more.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href="#pricing" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg">Fix My PC Now</a>
+          <a href="#features" class="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold shadow border border-white/20">See What’s Inside</a>
+        </div>
+        <p class="mt-4 text-sm text-slate-300">Instant digital download. One-time purchase.</p>
+      </div>
+      <div class="flex-1 w-full">
+        <div class="card rounded-2xl shadow-2xl p-6">
+          <div class="aspect-video rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
+            <div class="text-center">
+              <div class="text-6xl">🛠️</div>
+              <p class="mt-2 text-slate-600 dark:text-slate-300">Fix Windows 11 24H2 (KB5065426)</p>
+            </div>
+          </div>
+          <ul class="mt-6 space-y-2 text-slate-700 dark:text-slate-200">
+            <li>-  Update errors: 0x800F0922, 0x80071a2d, 0x800f081f</li>
+            <li>-  Taskbar: missing/frozen icons, Widgets not loading</li>
+            <li>-  Network: Ethernet/Wi‑Fi, SMB, mapped drives</li>
+            <li>-  Drivers: NVIDIA, Bluetooth, Audio, USB issues</li>
+            <li>-  App crashes, slow boot, hardware conflicts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="max-w-6xl mx-auto px-5 py-16">
+    <div class="text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold">Everything Needed to Fix 24H2</h2>
+      <p class="mt-3 muted">Clear steps, visuals, scripts, and recovery paths — no tech knowledge required.</p>
+    </div>
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">⚙️</div>
+        <h3 class="mt-3 font-semibold">Update Error Fixes</h3>
+        <p class="mt-2 text-sm muted">Solve 0x800F0922, 0x80071a2d, 0x800f081f, stuck at 7%, and rollbacks.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">🧰</div>
+        <h3 class="mt-3 font-semibold">One‑Click Script</h3>
+        <p class="mt-2 text-sm muted">PowerShell that resets update services, repairs DISM/SFC, enables .NET 3.5.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">🖥️</div>
+        <h3 class="mt-3 font-semibold">Taskbar & Widgets</h3>
+        <p class="mt-2 text-sm muted">Revive a frozen taskbar and fix missing icons and Widgets not loading.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">🌐</div>
+        <h3 class="mt-3 font-semibold">Network & SMB</h3>
+        <p class="mt-2 text-sm muted">Fix Wi‑Fi/Ethernet, SMB access, and mapped drives after the update.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">🎮</div>
+        <h3 class="mt-3 font-semibold">Driver Stability</h3>
+        <p class="mt-2 text-sm muted">Resolve GPU, audio, Bluetooth, and USB device crashes or instability.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="text-3xl">🛡️</div>
+        <h3 class="mt-3 font-semibold">Recovery Paths</h3>
+        <p class="mt-2 text-sm muted">Media Creation Tool repair install and safe EFI partition guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="max-w-6xl mx-auto px-5 py-16">
+    <div class="text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold">What Customers Say</h2>
+      <p class="mt-3 muted">Real transformations from frustrating errors to a smooth, stable PC.</p>
+    </div>
+    <div class="mt-10 grid md:grid-cols-3 gap-6">
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <p class="italic">“My update failed for a week. Followed the script and steps — done in 20 minutes!”</p>
+        <p class="mt-4 text-sm font-semibold">— Priya S.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <p class="italic">“Taskbar and Wi‑Fi broke after KB5065426. This guide fixed both without a full reset.”</p>
+        <p class="mt-4 text-sm font-semibold">— Michael R.</p>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <p class="italic">“The Media Creation Tool step saved my apps. Worth every penny.”</p>
+        <p class="mt-4 text-sm font-semibold">— Aditi K.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="max-w-6xl mx-auto px-5 py-16">
+    <div class="text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold">Get the Complete Fix Guide</h2>
+      <p class="mt-3 muted">Instant download. Beginner-friendly steps, visuals, and scripts included.</p>
+    </div>
+
+    <div class="mt-10 grid md:grid-cols-2 gap-6">
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <h3 class="text-lg font-semibold">What’s Included</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li>-  Full step-by-step guide (errors, taskbar, network, drivers, apps)</li>
+          <li>-  One‑click PowerShell repair script</li>
+          <li>-  Network reset & SMB/mapped drive fixes</li>
+          <li>-  Driver rollback/update and recovery paths</li>
+          <li>-  Prevention checklist to keep updates smooth</li>
+        </ul>
+      </div>
+      <div class="card rounded-2xl p-6 border border-gray-200 dark:border-gray-800 shadow-sm">
+        <div class="flex items-baseline gap-2">
+          <div class="text-4xl font-extrabold">$3</div>
+          <div class="muted">one‑time</div>
+        </div>
+        <p class="mt-2 muted">Secure checkout via PayPal. You’ll be redirected after payment.</p>
+
+        <!-- PayPal Form (as provided) -->
+        <div class="mt-6">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="space-y-3">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="arunkumarsahajpur@gmail.com">
+            <input type="hidden" name="item_name" value="Windows 11 Fix Guide">
+            <input type="hidden" name="amount" value="3.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="return" value="https://docs.google.com/document/d/1pPYdQVSVqkjsqP0DbCsppjzJMwpqCfXtHJPfne2AryY/edit?usp=drive_linkl">
+            <input type="hidden" name="cancel_return" value="index.html">
+            <button type="submit"
+              class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg">
+              Pay $3 with PayPal
+            </button>
+          </form>
+          <p class="mt-3 text-xs muted">After payment, you’ll receive a download link on the success page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto">
+    <div class="max-w-6xl mx-auto px-5 py-10 border-t border-gray-200 dark:border-gray-800">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p class="text-sm muted">© 2025 WinFix Guides. All rights reserved.</p>
+        <div class="text-sm muted">Version: Sept 2025 -  Author: YourBrand</div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
+
+
+  <style>
+    /* Disable text selection and touch callout on most browsers */
+    html, body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      margin: 0;
+      font-family: system-ui, sans-serif;
+    }
+    .content { padding: 2rem; }
+    /* Small unobtrusive notification area */
+    #notice {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      font-size: 13px;
+      display: none;
+      z-index: 99999;
+    }
+  </style>
+>
+  <div class="content">
+    <h1>Protected Page — demo</h1>
+    <p>Is page par right-click, copy, aur kuch keyboard combos block kiye gaye hain.</p>
+    <p>Note: Yeh client-side protection hai — determined user isey bypass kar sakta hai.</p>
+    <p>Try: right click, Ctrl+U, Ctrl+Shift+I, Ctrl+C, F12 etc.</p>
+  </div>
+
+  <div id="notice">Action blocked</div>
+
+  <script>
+    (function () {
+      const notice = document.getElementById('notice');
+      let noticeTimer = null;
+      function showNotice() {
+        if (noticeTimer) clearTimeout(noticeTimer);
+        notice.style.display = 'block';
+        noticeTimer = setTimeout(() => notice.style.display = 'none', 1200);
+      }
+
+      // 1) Block context menu (right-click)
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+        showNotice();
+      }, { passive: false });
+
+      // 2) Block selection via JS too (extra layer)
+      document.addEventListener('selectstart', function (e) {
+        e.preventDefault();
+      }, { passive: false });
+
+      // 3) Block dragstart (to avoid dragging text/images)
+      document.addEventListener('dragstart', function (e) {
+        e.preventDefault();
+      }, { passive: false });
+
+      // 4) Block copy / cut / paste events
+      ['copy', 'cut', 'paste'].forEach(evt => {
+        document.addEventListener(evt, function (e) {
+          e.preventDefault();
+          showNotice();
+        }, { passive: false });
+      });
+
+      // 5) Keyboard blocking for common combos
+      document.addEventListener('keydown', function (e) {
+        // normalize key
+        const k = (e.key || '').toLowerCase();
+
+        // Block F12
+        if (e.key === 'F12') {
+          e.preventDefault();
+          showNotice();
+          return;
+        }
+
+        // Block Ctrl+U (view-source), Ctrl+Shift+I (devtools), Ctrl+Shift+J, Ctrl+Shift+C
+        if (e.ctrlKey && !e.altKey) {
+          if (k === 'u' // view-source / source
+              || (e.shiftKey && (k === 'i' || k === 'j' || k === 'c')) // devtools combos
+              || k === 's' // optional: save page
+              || k === 'p' // print
+          ) {
+            e.preventDefault();
+            showNotice();
+            return;
+          }
+          // Block Ctrl+C/Ctrl+X for copy/cut via keyboard
+          if (k === 'c' || k === 'x') {
+            e.preventDefault();
+            showNotice();
+            return;
+          }
+        }
+
+        // Block Ctrl+Shift+I explicitly (some browsers report different key values)
+        if (e.ctrlKey && e.shiftKey && (k === 'i')) {
+          e.preventDefault();
+          showNotice();
+          return;
+        }
+      }, { passive: false });
+
+      // 6) Additional: intercept keypresss (older browsers)
+      document.onkeypress = function (e) {
+        e = e || window.event;
+        if (e && e.ctrlKey && (String.fromCharCode(e.which || e.keyCode).toLowerCase() === 'u')) {
+          e.preventDefault && e.preventDefault();
+          showNotice();
+          return false;
+        }
+      };
+
+      // 7) Robustness: prevent opening context menu by long-press on touch devices
+      document.addEventListener('touchstart', function (e) {
+        if (e.touches && e.touches.length > 1) {
+          e.preventDefault();
+        }
+      }, { passive: false });
+
+      // Small accessibility: on very small screens, allow selecting with an explicit toggle if needed.
+      // (Not necessary for protection; left commented for reference)
+      // function enableSelectionForDebug() { document.body.style.userSelect = 'text'; }
+      // window.enableSelectionForDebug = enableSelectionForDebug;
+
+      // Inform developer in console about limitations
+      console.info("Client-side copy/inspect blocking enabled. NOTE: This is not foolproof — users can bypass it.");
+    })();
+  </script>
